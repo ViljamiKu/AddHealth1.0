@@ -1,0 +1,109 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/simple_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="BMI-laskuri"
+        android:fontFamily="@font/contrail_one"
+        android:textColor="#ffffff"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/et_weight"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="Anna paino"
+        android:textColorHint="#80FFFFFF"
+        android:inputType="numberDecimal"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/et_height"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="Anna pituus"
+        android:textColorHint="#80FFFFFF"
+        android:inputType="numberDecimal"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:text="Painoindeksi on: "
+        android:textColor="#ffffff"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginBottom="152dp"
+        android:background="#ffffff"
+        android:text="LASKE" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="152dp"
+        android:background="#ffffff"
+        android:text="Info" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="134dp"
+        android:layout_marginRight="274dp"
+        android:text="Paino (kg)"
+        android:textColor="#ffffff"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="215dp"
+        android:layout_marginRight="274dp"
+        android:text="Pituus (cm)"
+        android:textColor="#ffffff"
+        android:textSize="15dp"/>
+
+
+</RelativeLayout>

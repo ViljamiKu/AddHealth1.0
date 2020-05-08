@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AddHealth</string>
+    <string name="avaa_bmi">BMI-laskuri</string>
+    <string name="anna_paino">Anna paino:</string>
+</resources>

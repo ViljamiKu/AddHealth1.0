@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/contrail_one"
+        android:text="Askelmittari"
+        android:textSize="40dp"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:text="@string/avaa_bmi"
+        android:background="#ffffff"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:background="#ffffff"
+        android:text="Askeleet" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="211dp"
+        android:text="0"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:inputType="number"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="@android:style/Widget.Holo.ProgressBar.Large"
+        android:layout_width="299dp"
+        android:layout_height="258dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp" />
+
+</RelativeLayout>
